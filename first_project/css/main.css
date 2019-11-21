@@ -1,0 +1,264 @@
+/**********************
+GENERAL STYLES
+***********************/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #222222;
+}
+
+div{
+	/*отменяет изменения размеров div при использовании padding*/
+	box-sizing: border-box;
+}
+
+.container{
+	width: 930px;
+	/*выравнивает контейнер по центру*/
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+
+/**********************
+HEADER SECTION
+***********************/
+
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.logo{
+	margin-top: 41px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 41px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles__first{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+
+/**********************
+SERVICES SECTION
+***********************/
+
+.title{
+	padding-top: 100px;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p{
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+#services{
+	padding-bottom: 300px;
+}
+
+.services{
+	margin-top: 80px;
+}
+
+.services__item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services__item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p{
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item:last-child{
+	float: right;
+}
+
+.services__item:nth-child(2){
+	margin-left: 60px;
+}
+
+
+/**********************
+OUR PORTFOLIO SECTION
+***********************/
+
+#portfolio{
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+
+.works{
+	margin-top: 50px;
+}
+
+.works img{
+	float: left;
+}
+
+.works img:nth-child(2){
+	margin-left: 29px;
+}
+
+.works img:last-child{
+	float: right;
+}
+
+
+/**********************
+ABOUT US SECTION
+***********************/
+
+h4{
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+h5{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#about{
+	padding-bottom: 50px;
+}
+
+.events__item{
+	padding-bottom: 20px;
+}
+
+.events__item p{
+	margin-top: 15px;
+	line-height: 1.5em;
+}
+
+.events__item:nth-child(odd){
+	width: 100%;
+	padding: 30px 0;
+}
+
+.events__item:nth-child(even){
+	width: 100%;
+	text-align: right;
+	padding: 30px 0;
+}
+
+.events__item:nth-child(odd) .text{
+	float: left;
+	width: 35%;
+	text-align: right;
+	margin-right: 47px;
+}
+
+.events__item:nth-child(even) .text{
+	float: right;
+	width: 35%;
+	text-align: left;
+	margin-left: 47px;
+}
+
+
+/**********************
+FOOTER SECTION
+***********************/
+
+footer{
+	height: 130px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
